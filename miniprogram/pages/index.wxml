@@ -1,0 +1,22 @@
+<!--miniprogram/pages/private/index.wxml-->
+<view class="safety-main">
+
+	<view class="top">
+      <image class="img img1" src="../assets/images/bj_01.png"></image>
+      <image class="img img2" src="../assets/images/bj_02.png"></image>
+		<!-- <cover-image class="img1" src="../assets/images/bj_01.png"></cover-image> -->
+	
+	</view>
+  <view class="bottom">
+      <view class="ad">
+          <image class="img" src="../assets/images/sologen.png"></image>
+      </view>
+      <button class="button"  open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">   
+          <image class="img" src="../assets/images/button.png"></image>
+      </button>
+      <view class="dx-logo">
+          <image class="img" src="../assets/images/dx-logo.png"></image>
+      </view>
+  </view>
+
+</view>
